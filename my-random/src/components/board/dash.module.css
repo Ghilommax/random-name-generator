@@ -1,0 +1,48 @@
+body{
+   background-color: rgb(255, 255, 255);
+}
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+   
+}
+.item li{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(147, 141, 168);
+}
+.item li:hover{
+    background-color: rgb(24, 64, 124);
+    cursor: pointer;
+    color: white;
+}
+.input{
+   text-align: center;
+   padding: 10px 30px;
+   margin: 20px 10rem;
+   background-color:white;
+   color:black;
+   border-radius: 10px;
+}
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    background: rgba(177,2,2,.92);
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5rem;
+  }
+.listdash{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    border-radius: 50%;
+}

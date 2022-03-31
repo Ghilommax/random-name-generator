@@ -1,0 +1,25 @@
+.item{
+    list-style: none;
+    display: flex;
+     gap: 1rem;
+     align-items: center;
+     justify-content: center;
+     margin-top: 5rem;
+}
+.item a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1px;
+    margin-top: 2rem;
+    color: black;
+    transition: all 0.4ms ease-in-out;
+}
+.item a:hover{
+    border: 1.5px solid black;
+    padding: 10px;
+    transition: all 0.4ms ease-in-out;
+}
+.active{
+    border: 1.5px solid black;
+    padding: 10px;
+}

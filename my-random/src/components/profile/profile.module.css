@@ -1,0 +1,25 @@
+.listmain{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: white;
+    height: 100vh;
+    list-style: none;
+  }
+  .listitem {
+      display: grid;
+      grid-template-columns: repeat( 3, 1fr);
+      grid-gap: 3rem;
+  }
+  .listimg {
+      border-radius: 50%;
+      padding: 20px
+  
+  
+  }
+  .listname{
+  padding-bottom: 50px;
+  border-top: 1px solid white;
+  font-size: 2rem;
+  }
+  

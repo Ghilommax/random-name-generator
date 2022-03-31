@@ -1,0 +1,29 @@
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgba(177,2,2,.92);
+     color: white;
+}
+.main-name h1{
+    padding: 2px 30px;
+  
+}
+.navlist{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     list-style: none;
+
+} 
+.navlist li{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.navlist li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navlist li a:hover{
+    color: chocolate;
+}
